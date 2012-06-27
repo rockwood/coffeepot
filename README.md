@@ -4,6 +4,12 @@ coffeepot
 Connect/Express middleware to dynamically serve coffee files as js
 
 
+use connect-assets?
+-------------------
+
+[connect-assets](https://github.com/TrevorBurnham/connect-assets/) does everything this module does and more. I couldn't get it to work. See [this ticket](https://github.com/TrevorBurnham/connect-assets/issues/109).
+
+
 example
 -------
 
