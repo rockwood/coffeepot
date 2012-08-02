@@ -21,7 +21,7 @@ module.exports = coffeepot = (publicDir) ->
         try
           content = cs.compile data.toString()
         catch err
-          return res.send err.message, 500
+          return res.end err.message, 500
 
-        res.header 'Content-Type', 'text/javascript'
-        res.send content
+        res.setHeader "Content-Type", "text/html"
+        res.end content
